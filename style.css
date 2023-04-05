@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ min-height: 100vh;
+}
+.mainBody {
+    width: 375px;
+    border-radius: 50px;
+    border: solid 1px rgb(249, 248, 248);
+    box-sizing: border-box;
+height: 600px;
+margin: auto;
+text-align: center;
+background-color: rgb(255, 255, 255);
+
+}
+img {
+width: 375px;
+height: 150px;
+border-top-left-radius: 50px ;
+border-top-right-radius: 50px;
+}
+h1 {
+    margin: 20px;
+    
+    
+
+}
+#text {
+    margin: 30px;
+    opacity: 0.65;
+    font-weight: 500;
+    font-family: [Red Hat Display];
+}
+.plan{
+    background-color: hsl(222, 100%, 98%);
+    border-radius: 10px;
+    border: solid 1px white;
+    margin: 15px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#musicpic {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+#price {
+    opacity: 0.65;
+    font-weight: 500;
+    font-family: [Red Hat Display];
+}
+.mainContent {
+    margin-right: 90px;
+
+}
+.change {
+    background-color: hsl(222, 100%, 98%) ;
+    font-size: 15px;
+    border: solid 1px  hsl(222, 100%, 98%);
+    
+}
+.change:hover {
+    text-decoration: underline hsl(223, 47%, 23%);
+    color: hsl(240, 53%, 40%);
+}
+.payment {
+    height: 40px;
+    width: 80%;
+    border: 1px solid white ;
+    background-color:hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: medium;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+.payment:hover {
+    box-shadow: 0 0 50px rgba(1, 7, 110, 0.2); 
+}
+
+.cancel {
+    background-color: white;
+    border: 1px solid white;
+    opacity: 0.65;
+    margin-top: 20px;
+    font-size: 15px;
+    
+}
+.cancel:hover {
+    box-shadow: 0 0 50px rgba(1, 7, 110, 0.2); 
+}
+
